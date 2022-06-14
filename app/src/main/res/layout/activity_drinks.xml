@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdhome"
+    tools:context=".Drinks">
+
+    <TextView
+        android:id="@+id/tvdrinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DRINKS"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="40dp"
+        android:textColor="#4863A0"
+        android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:id="@+id/btnmagic"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdrinks"
+        android:layout_marginTop="80dp"
+        android:text="Magic Brew"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        />
+
+    <Button
+        android:id="@+id/btnhumming"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmagic"
+        android:layout_marginTop="20dp"
+        android:text="Humming Beer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        />
+
+    <Button
+        android:id="@+id/btncloud"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhumming"
+        android:layout_marginTop="20dp"
+        android:text="Cloudy Cup"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        />
+
+    <Button
+        android:id="@+id/btnsweet"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncloud"
+        android:layout_marginTop="20dp"
+        android:text="sweet meadary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        />
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsweet"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Back"
+        android:backgroundTint="#728FCE"
+        android:id="@+id/backbuttondr"/>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdhome"
+    tools:context=".Lovelysalt">
+
+    <TextView
+        android:id="@+id/tvlovelysalt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4863A0"
+        android:text="LOVELY SALT"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <ImageView
+        android:id="@+id/ivlove"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/salt"
+        android:layout_below="@+id/tvlovelysalt"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvrequirementlov"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlove"
+        android:text="Requirements"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvetclove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvrequirementlov"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:text="Etc..............."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnbacklove"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/tvetclove"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#728FCE"
+        />
+
+    <Button
+        android:id="@+id/btnproposelove"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Propose Deal"
+        android:layout_below="@+id/tvetclove"
+        android:layout_toRightOf="@+id/btnbacklove"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#728FCE"
+        />
+
+
+
+</RelativeLayout>

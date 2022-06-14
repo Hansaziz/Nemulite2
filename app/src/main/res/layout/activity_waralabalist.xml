@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgdhome"
+    tools:context=".Waralabalist">
+
+
+    <TextView
+        android:id="@+id/tvList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waralaba List"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#4863A0"
+        />
+
+    <Button
+        android:id="@+id/btnfood"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/tvList"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Foods"
+        android:textSize="35dp"
+        android:backgroundTint="#728FCE"/>
+
+    <Button
+        android:id="@+id/btndrink"
+        android:layout_below="@+id/btnfood"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Drinks"
+        android:textSize="35dp"
+        android:backgroundTint="#728FCE"/>
+
+    <Button
+        android:id="@+id/btnbacklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btndrink"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Back"
+        android:backgroundTint="#728FCE"/>
+
+
+</RelativeLayout>

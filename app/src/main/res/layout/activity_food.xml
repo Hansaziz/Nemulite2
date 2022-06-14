@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgdhome"
+    android:layout_height="match_parent"
+    tools:context=".Food">
+
+    <TextView
+        android:id="@+id/tvfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOOD"
+        android:textColor="#4863A0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btnlovely"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvfood"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Lovely Salt"/>
+
+    <Button
+        android:id="@+id/btnchilli"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlovely"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Chili Peppper"/>
+
+    <Button
+        android:id="@+id/btndear"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnchilli"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Dear HoneY"/>
+
+    <Button
+        android:id="@+id/btnhot"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btndear"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Hot Fish"/>
+
+    <Button
+        android:id="@+id/btnsteak"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhot"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Steak n FISH"/>
+
+    <Button
+        android:id="@+id/btnbeef"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsteak"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="BroaD BEEF"/>
+
+    <Button
+        android:id="@+id/btnbite"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbeef"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="380dp"
+        android:backgroundTint="#728FCE"
+        android:text="Fishy Bite"/>
+
+    <Button
+        android:id="@+id/btnfoodback"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbite"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#728FCE"
+        android:text="Back"/>
+
+
+</RelativeLayout>

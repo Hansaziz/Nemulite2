@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108293481997",
+    "project_id": "nemulite2",
+    "storage_bucket": "nemulite2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108293481997:android:53a6918ed31d490bd59744",
+        "android_client_info": {
+          "package_name": "com.example.nemulite2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108293481997-4pcnq57cf4blp7cdi2utg8dupdflij1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx83QVg7Jw13cUoKubEq9RYHSD2dzwMxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108293481997-4pcnq57cf4blp7cdi2utg8dupdflij1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
